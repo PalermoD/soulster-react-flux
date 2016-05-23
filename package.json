@@ -9,6 +9,9 @@
   "author": "PalermoD",
   "license": "MIT",
   "dependencies": {
-    "gulp": "^3.9.1"
+    "css-loader": "^0.23.1",
+    "gulp": "^3.9.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.1"
   }
 }
