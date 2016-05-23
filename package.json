@@ -4,11 +4,13 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --progress --colors"
   },
   "author": "PalermoD",
   "license": "MIT",
   "dependencies": {
+    "chai": "^3.5.0",
     "css-loader": "^0.23.1",
     "gulp": "^3.9.1",
     "style-loader": "^0.13.1",

@@ -82,7 +82,7 @@
 
 
 	// module
-	exports.push([module.id, "body {\n\tbackground-color: yellow;\n}", ""]);
+	exports.push([module.id, "body {\n\tbackground-color: black;\n\tcolor: white;\n}", ""]);
 
 	// exports
 
@@ -399,7 +399,7 @@
 /* 5 */
 /***/ function(module, exports) {
 
-	module.exports ="It works from content js";
+	module.exports ="Soulster";
 
 /***/ }
 /******/ ]);
