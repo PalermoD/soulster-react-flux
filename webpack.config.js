@@ -1,5 +1,5 @@
 module.exports = {
-	entry: "./entry.js",
+	entry: "./src/entry.js",
 	output: {
 		path: __dirname,
 		filename: "bundle.js"
@@ -8,5 +8,8 @@ module.exports = {
 		loaders: [
 			{ test: /\.css$/, loader: "style!css" }
 		]
+	},
+	resolve: {
+		extensions: ['', '.js', '.jsx']
 	}
 };
